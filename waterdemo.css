@@ -1,0 +1,36 @@
+.frame {
+    width: 385px;
+}
+.waterDemo {
+    line-height: 0px;
+}
+.tile {
+    display: inline-block;
+    border: 1px solid #ad9878;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    margin: -1px;
+}
+.input {
+    width: 100%;
+}
+.input input, .input select, .input .label {
+    display: inline-block;
+    margin: 4px 4px 2px 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+.input input[type="button"] {
+    background-color: #fce5cf;
+    padding: 0 6px 0 6px;
+}
+.input label {
+    margin-right: 24px;
+}
+.label, .input label {
+    font-family: Verdana, sans-serif;
+}
+.hidden {
+    display: none;
+}
